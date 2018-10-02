@@ -13,10 +13,10 @@ availableRooms: function() {
     return hotel.rooms - hotel.occupied_rooms},
 
 bookARoom: function() {
-  return hotel.rooms  - hotel.occupied_rooms - 1},
+  return hotel.rooms  - hotel.occupied_rooms --},
 
 relinquishARoom: function(){
-    return hotel.rooms - hotel.occupied_rooms + 1},
+    return hotel.rooms - hotel.occupied_rooms ++},
 };
 
 
