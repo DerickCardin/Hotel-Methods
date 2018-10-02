@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+ <html>
+     <head>Hotel</head>
+     <title>Hotel Methods</title>
+     <body>
+         <script>
+var hotel = {
+rooms: 150,
+occupied_rooms: 32,
+amenities: ['sauna', 'pool', 'bar'],
+
+availableRooms: function() {
+    return hotel.rooms - hotel.occupied_rooms},
+
+bookARoom: function() {
+  return hotel.rooms  - hotel.occupied_rooms - 1},
+
+relinquishARoom: function(){
+    return hotel.rooms - hotel.occupied_rooms + 1},
+};
+
+
+</script>
+</body>
+</html>
